@@ -2,7 +2,7 @@
   "miniprogramRoot": "dist/",
   "projectname": "panlong-theater",
   "description": "蟠龙剧院 - 微信小程序",
-  "appid": "touristappid",
+  "appid": "wx32afaf36595b3e41",
   "setting": {
     "urlCheck": false,
     "es6": false,
@@ -14,7 +14,20 @@
       "ignore": [],
       "disablePlugins": [],
       "outputPath": ""
-    }
+    },
+    "compileWorklet": false,
+    "uglifyFileName": false,
+    "uploadWithSourceMap": true,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true,
+    "minifyWXML": true,
+    "localPlugins": false,
+    "disableUseStrict": false,
+    "useCompilerPlugins": false,
+    "condition": false,
+    "swc": false,
+    "disableSWC": true
   },
   "compileType": "miniprogram",
   "libVersion": "3.0.0",
@@ -25,5 +38,6 @@
   "editorSetting": {
     "tabIndent": "insertSpaces",
     "tabSize": 2
-  }
+  },
+  "simulatorPluginLibVersion": {}
 }

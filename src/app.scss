@@ -1,5 +1,5 @@
 // ========== 全局样式 ==========
-@import './assets/styles/variables.scss';
+@use './assets/styles/variables.scss' as *;
 
 // CSS 自定义属性（可被子页面使用）
 page {
